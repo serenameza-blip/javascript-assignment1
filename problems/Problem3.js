@@ -1,6 +1,6 @@
 // Problem 3
 const multiplyBy = (arr, multiplier) => {
-    const newArr = arr.map((value, index, array) => value * multiplier);
+    const newArr = arr.map((value) => value * multiplier);
     return newArr;
 };
 

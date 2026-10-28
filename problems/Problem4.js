@@ -2,7 +2,7 @@
 const indexAndConcat = (arr) => {
     let newArr = [];
     for (const [index, item] of arr.entries()) {
-        newArr.push(`${index}${item}`)
+        newArr.push(index + item)
     }
     return newArr;
 };
